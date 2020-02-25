@@ -18,7 +18,7 @@ body {
     color: var(--text-color);
   }
   
-
+/* body in dark mode */
   body.dark {
     --accent-color: #D0D066;
     --background-color: #333;
@@ -29,6 +29,7 @@ body {
     margin: 0;
     margin-bottom: .5rem;
   }
+  
   
   .theme-toggle-button {
     background-color: var(--accent-color);
@@ -83,6 +84,7 @@ body {
     opacity: 1;
   }
   
+  /* playstation in dark mode */
   .dark .playstation {
     opacity: 0;
   }
@@ -93,6 +95,8 @@ body {
     transform: rotate(180deg);
   }
   
+
+  /* Netflix in dark mode */
   .dark .netflix {
     opacity: 1;
   }
